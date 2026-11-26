@@ -18,6 +18,8 @@
 		"@sveltejs/kit": "^3.2.0",
 		"@sveltejs/vite-plugin-svelte": "^7.3.1",
 		"svelte": "^5.57.3",
-		"vite": "^8.3.8"
+		"vite": "^8.3.8",
+		"remotestorage-widget": "^1.8.1",
+		"remotestoragejs": "^2.0.0-beta.10"
 	}
 }
