@@ -1,5 +1,5 @@
 {
-	"name": "widget-self-error",
+	"name": "widget-self-repro",
 	"version": "0.0.1",
 	"private": true,
 	"type": "module",

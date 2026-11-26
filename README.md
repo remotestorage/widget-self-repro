@@ -1,4 +1,4 @@
-# widget-self-error
+# widget-self-repro
 
 Reproduces issue [#145](https://github.com/remotestorage/remotestorage-widget/issues/145).
 

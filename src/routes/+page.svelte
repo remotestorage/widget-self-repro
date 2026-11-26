@@ -12,7 +12,7 @@ onMount(() => {
 });
 </script>
 
-<strong><a href="https://github.com/remotestorage/widget-self-repro">widget-self-error</a></strong>
+<strong><a href="https://github.com/remotestorage/widget-self-repro">widget-self-repro</a></strong>
 <br>
 <small>Reproduces issue <a href="https://github.com/remotestorage/remotestorage-widget/issues/145">#145</a></small>
 
