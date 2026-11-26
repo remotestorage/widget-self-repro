@@ -6,11 +6,16 @@ const remoteStorage = new RemoteStorage();
 
 remoteStorage.access.claim('myfavoritedrinks', 'rw');
 
-const widget = new Widget(remoteStorage);
-widget.attach();
+import { onMount } from 'svelte';
+onMount(() => {
+  (new Widget(remoteStorage)).attach('widget-wrapper');
+});
 </script>
 
 <strong><a href="https://github.com/remotestorage/issue-145-repro">widget-self-error</a></strong>
 <br>
 <small>Reproduces issue <a href="https://github.com/remotestorage/remotestorage-widget/issues/145">#145</a></small>
-<widget-wrapper></widget-wrapper>
+
+<p>If the widget imports successfully, it should appear after this text.</p>
+
+<div id="widget-wrapper"></div>
